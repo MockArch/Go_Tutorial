@@ -11,9 +11,9 @@ import (
 	)
 
 type Todo struct{
-	Name string		`json:"name"`
-	Compleated bool	`json:"completed"`
-	due  time.time  `json:"due"`
+	Name string		
+	Compleated bool	
+	due  time.time 
 }
 
 
