@@ -7,10 +7,9 @@ import "fmt"
 	
 
 func main() {
-    fmt.Println("hello world")
-    fmt.Println("go" + "lang")
-    fmt.Println("7.0/3.0 =", 7.0/3.0)
-    fmt.Println(true && false)
-    fmt.Println(true || false)
-    fmt.Println(!true)
+	s := ""
+   for ; s!="aaaaa";{
+   	fmt.Println("value of s is :", s)
+   	s = s +	"a"
+   }
 }
