@@ -1,13 +1,15 @@
-package main 
+package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	function1()
 }
 
 func function1() {
-	for i:=0 ; i< 4; i++{
+	for i := 0; i < 4; i++ {
 		defer fmt.Println(i)
 	}
 	fmt.Printf("this is the fuction1 top")

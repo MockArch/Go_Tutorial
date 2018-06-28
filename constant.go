@@ -1,12 +1,10 @@
 package main
 
-
-
+import 
 import "fmt"
 import "math"
 
-
-const s string  = "Constant"
+const s string = "Constant"
 
 func main() {
 	fmt.Println(s)

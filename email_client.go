@@ -27,5 +27,6 @@ func send(body string) {
 		log.Printf("smtp error: %s", err)
 		return
 	}
-	
-log.Print("sent")}
+
+	log.Print("sent")
+}
