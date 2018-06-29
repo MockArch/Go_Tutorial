@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"strings"
-	"net/http"
 	"io/ioutil"
+	"net/http"
+	"strings"
 )
 
 func main() {
